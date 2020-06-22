@@ -1,6 +1,6 @@
 // clientInfo
 // vipBonusInfo
-
+// SUGGESTION : Fix all the course files (From restaurant to school system)
 type clientInfo = {
     id: number;
     name: string;
