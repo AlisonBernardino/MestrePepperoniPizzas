@@ -6,18 +6,24 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-<body>
-    <!-- 04/28/2021 - 19:31 -->
-    <!-- Navbar content - Start -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                    data-mdb-targer="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarExample01">
+<!-- 04/28/2021 - 19:31 -->
+<!-- 04/29/2021 - 19:16 -->
+<!-- Header responsivity status = All set! Sent to review -->
+
+<!-- Navbar content - Start -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                        data-mdb-targer="#navbarExample01" aria-controls="navbarExample01" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <!-- *** Question 01 - About responsivity configuration related to this part-->
+                <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item active">
                             <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -40,39 +46,40 @@
                     </ul>
                 </div>
             </div>
-        </nav>
-
-        <!-- Navbar content - End -->
-
-        <!-- Background content - Start -->
-
-        <div class="p-5 text-center bg-image" style="background-image: url(https://wallpapercave.com/wp/wp2460545.jpg); 
-        height: 400px;">
-            <!-- Background content - End -->
-
-            <!-- Jumbotron content - Start
-        <div class="p-5 text-center bg-light">
-            <h1 class="mb-3"> Be part of the institution! </h1>
-            <h4 class="mb-3"> Apply for a study plan and save your seat for the code quality development </h4>
-            <a class="btn btn-primary" href="" role="button">Start my study journey!</a>
         </div>
-        Jumbotron content - End -->
+    </nav>
 
-            <div class="mask" style="background-color: rgba(0,0,0,0.6);">
-                <div class="d-flex justify-content-center align-items-center h-100">
-                    <div class="text-white">
-                        <h1 class="mb-3"> Be part of the institution! </h1>
-                        <h4 class="mb-3"> Apply for a study plan and save your seat for the code quality development
-                        </h4>
-                        <a class="btn btn-outline-light btn-lg" href="#!" role="button"> Start my study journey!</a>
-                    </div>
+    <!-- Navbar content - End -->
+
+    <!-- *** Question 02 - About this background image responsivity -->
+    <!-- Background content - Start -->
+    <!-- <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3"> -->
+    <div class="p-5 text-center bg-image" style="background-image: url(https://wallpapercave.com/wp/wp2460545.jpg); 
+        height: 400px;">
+        <!-- Background content - End -->
+
+        <div class="mask" style="background-color: rgba(0,0,0,0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3"> Be part of the institution! </h1>
+                    <h4 class="mb-3"> Apply for a study plan and save your seat for the code quality development
+                    </h4>
+                    <a class="btn btn-outline-light btn-lg" href="#!" role="button"> Start my study journey!</a>
                 </div>
             </div>
-    </header>
+        </div>
+    </div>
+    <!-- </div> -->
+</header>
+<!-- Header content - End -->
+
+<body>
+    <!-- 04/29/2021 - 19:16 -->
+    <!-- Body responsivity status = All set! Sent to review. -->
     <form>
         <div class="container">
             <div class="row">
-                <div class="form-group col-12 col-xs-6">
+                <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <h2>New student - Register</h2>
                 </div>
                 <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
@@ -92,8 +99,6 @@
                 </div>
                 <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <h6> Gender </h6>
-                </div>
-                <div class="form-group col-12 col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
                     <label for="genderOption">Select your option: </label>
                     <select class="form-control" id="genderOption">
                         <option>Male</option>
@@ -133,41 +138,76 @@
         crossorigin="anonymous"></script>
 </body>
 
+<!-- 04/29/2021 - 19:16 -->
+<!-- Footer responsivity status = All set! Sent to review. -->
+
 <!-- Footer content - Start -->
 <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
     <div class="container p-4">
-
         <!-- Grid row -->
         <div class="row">
-            <!-- Grid column -->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase"> Our works are on YouTube </h5>
+            <!-- Images samples - Start -->
+            <div class="form-group col-12 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/113.jpg" class="w-100"/>
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251,251,251,0.2);">
+                    </div>
+                </a>
             </div>
-            <div class="col-md-12 col-lg-6 mb-4 mb-md-0">
+            <div class="form-group col-12 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/112.jpg" class="w-100"/>
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251,251,251,0.2);">
+                    </div>
+                </a>
+            </div>
+            <div class="form-group col-12 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 bg-image hover-overlay ripple shadow-1-strong rounded" data-ripple-color="light">
+                <img src="https://mdbootstrap.com/img/new/fluid/city/115.jpg" class="w-100"/>
+                <a href="#!">
+                    <div class="mask" style="background-color: rgba(251,251,251,0.2);">
+                    </div>
+                </a>
+            </div>
+            <!-- Images samples - End -->
+
+            <!-- Insert the 02 text samples after images samples insertion -->
+            <!-- Text samples - Start -->
+            <div class="form-group col-12 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h5 class="text-uppercase"> MODULAR WORK </h5>
+            <!-- </div> -->
+            <!-- *** Question 03 - About the divs conflicts -->
                 <p>
                     All the study process is better when you have capacitated professionals to support you.
-                    If you have any doubt, feel free to interact with the channel community.
-                    See our work and enjoy all the free content prepared specially for you!
+                    If you have any doubt, feel free to interact with our community.
+                    See our work and enjoy all the content prepared specially for you!
                 </p>
             </div>
-        </div>
-    </div>
-    <section class="">
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-6">
-                <div class="ratio ratio-16x9">
-                    <iframe class="shadow-1-strong rounded" src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                        title="GoPro demonstratives" allowfullscreen>
-                    </iframe>
+            <div class="form-group col-12 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h5 class="text-uppercase"> Global participation </h5>
+                <p>
+                    Our students are located worldwide and we are very proud of this mark!
+                    To have improved knowledge experience, we build classes with students from different countries.
+                    You should try. Aimez-vous programmer en français?
+                    (Do you like to program in French?)
+                </p>
+            </div>
+            <div class="form-group col-12 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <h5 class="text-uppercase"> Daily flux is fast</h5>
+                <p>
+                    We adopted a high performance time-saving metodology. You are trained by KanBan
+                    specialists and prepared with the most innovated agile techniques to rise the projects.
+                    The clock ticks fast, but here, we will prepare you to be faster. 
+                </p>
+            </div>
+            <!-- Text samples - End  -->
+            <div class="form-group col-12 col-xs-6 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="text-center p-3" style="background-color: rgba(0,0,0,0.2);">
+                    © 2021 Copyright:
+                    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
                 </div>
             </div>
         </div>
-    </section>
-    <div class="text-center p-3" style="background-color: rgba(0,0,0,0.2);">
-        © 2021 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
 </footer>
 
 </html>
